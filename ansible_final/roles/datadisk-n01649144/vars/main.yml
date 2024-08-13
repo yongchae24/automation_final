@@ -1,0 +1,5 @@
+# vars/main.yml
+part1_size: "4G"
+part2_size: "5G"
+part1_mount: "/part1"
+part2_mount: "/part2"

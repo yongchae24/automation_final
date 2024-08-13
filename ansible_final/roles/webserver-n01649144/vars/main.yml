@@ -1,0 +1,7 @@
+# vars/main.yml
+apache_package: "httpd"
+web_root: "/var/www/html"
+index_files:
+  - { name: "vm1.html", fqdn: "n01649144@n01649144-c-vm1.canadacentral.cloudapp.azure.com" }
+  - { name: "vm2.html", fqdn: "n01649144@n01649144-c-vm2.canadacentral.cloudapp.azure.com" }
+  - { name: "vm3.html", fqdn: "n01649144@n01649144-c-vm3.canadacentral.cloudapp.azure.com" } 

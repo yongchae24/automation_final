@@ -1,0 +1,10 @@
+
+# test_playbook.yml
+---
+- hosts: all
+  become: yes
+  roles:
+    - profile-n01649144
+    - user-n01649144
+    - datadisk-n01649144
+    - webserver-n01649144
